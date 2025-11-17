@@ -4,11 +4,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: black;
+    color: greenyellow;
 }
 
-ul li {
-    float: left;
-}
 
 ul li a {
     display: block;

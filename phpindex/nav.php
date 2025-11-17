@@ -15,5 +15,8 @@
         <li>
             <a href="https://georgeteemus24.thkit.ee" taget="_blank">Vana Index veebileht</a>
         </li>
+        <li>
+            <a href="?leht=gitKasud.php">gitKasud</a>
+        </li>
     </ul>
 </nav>
