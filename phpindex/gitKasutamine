@@ -1,0 +1,9 @@
+git init - uus repo
+git config --global user.name "Skellzz"
+git config --global user.email "george.teemus@gmail.com"
+git config --global --list
+
+//ssh võti loomine
+ssh-keygen -o -t rsa -C "george.teemus@gmail.com"
+// võti salvestataks opilane/.shh kasuta
+//id_rsa.pub tuleb kopeerida oma git hub -reposse

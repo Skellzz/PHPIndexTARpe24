@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: greenyellow;
+}
+header {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 8px;
+}
+div.flex-container > div{
+    margin: 10px;
+    border: solid 1pt grey;
+    border-radius: 10px;
+    padding: 10px;
+
+}
