@@ -19,6 +19,12 @@ include("header.php");
 include("nav.php");
 ?>
 <div class="flex-container">
+
+    <div>PHP - Skriptikeel – skript teeb oma tööd pärast seda, kui toimus mingi sündmus.
+        Orienteeritud programmeerija eesmärkide saavutamiseks (mugavus on tähtsam kui vastavus standarditele).
+        Serveripoolne keel.
+        Platvormist sõltumatu.
+        Saab kasutada nii HTML-i sees (HTML embedded), kui ka eraldiseisvana skriptina.</div>
     <div>
         <?php
         //Sisu - laetakse context kaustast
@@ -27,12 +33,8 @@ include("nav.php");
         }
         ?>
     </div>
-    <div>PHP - Skriptikeel – skript teeb oma tööd pärast seda, kui toimus mingi sündmus.
-        Orienteeritud programmeerija eesmärkide saavutamiseks (mugavus on tähtsam kui vastavus standarditele).
-        Serveripoolne keel.
-        Platvormist sõltumatu.
-        Saab kasutada nii HTML-i sees (HTML embedded), kui ka eraldiseisvana skriptina.</div>
     <div>
+
         <img src="image/php.png" alt="PHP pilt">
     </div>
 </div>

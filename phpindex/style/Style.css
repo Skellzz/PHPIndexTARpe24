@@ -6,17 +6,25 @@ ul {
     background-color: black;
     color: greenyellow;
 }
+body {
+    padding: 0;
+    margin: 0;
 
+}
 
 ul li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
+ul li{
+    float: left;
+    background-color: greenyellow;
+}
 ul li a:hover {
+
     background-color: greenyellow;
 }
 header {
@@ -29,10 +37,30 @@ footer {
     text-align: center;
     padding: 8px;
 }
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+
+}
 div.flex-container > div{
     margin: 10px;
     border: solid 1pt grey;
     border-radius: 10px;
+    flex: 1;
     padding: 10px;
 
+
 }
+.container {
+    display: flex;
+    background-color: DodgerBlue;
+
+}
+
+.container div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+
