@@ -13,6 +13,9 @@
             <a href="?leht=Kalkulaator.php">Kalkulaator</a>
         </li>
         <li>
+            <a href="?leht=matemaatilised.php">Matemaatilised Funktsioonid</a>
+        </li>
+        <li>
             <a href="https://georgeteemus24.thkit.ee" taget="_blank">Vana Index veebileht</a>
         </li>
         <li>
@@ -20,3 +23,4 @@
         </li>
     </ul>
 </nav>
+
