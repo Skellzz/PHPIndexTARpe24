@@ -19,7 +19,7 @@ h1{
 }
 
 header {
-    background-color: green;
+    background-color: white;
     text-align: center;
     padding: 10px;
 }
@@ -140,4 +140,39 @@ div.flex-container > div{
     content: "";
     display: table;
     clear: both;
+}
+div.Gallery_Container {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+div.Gallery_Container > div {
+    margin: 10px;
+    border: solid #0F2D66 1pt;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+/* Vormi stiilid */
+form select {
+    padding: 8px;
+    font-size: 14px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    padding: 8px 20px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #adff2f;
 }
