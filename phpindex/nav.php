@@ -8,14 +8,15 @@
                 <li><a href="?leht=kodu.php">Kodu</a></li>
                 <li><a href="https://georgeteemus24.thkit.ee" target="_blank">Vana Index</a></li>
                 <li><a href="?leht=gitKasud.php">gitKasud</a></li>
+                <li><a href="?leht=JStoo.php">JStoo</a></li>
+                <li><a href="?leht=Kalkulaator.php">Kalkulaator</a></li>
+                <li><a href="?leht=galerii.php">Pildi Galerii</a></li>
                 <li><a href="#">FUNKTSIOONID</a>
                     <ul class="dropdown">
                         <li><a href="?leht=Ajafunktsioonid.php">Ajafunktsioonid</a></li>
-                        <li><a href="?leht=Kalkulaator.php">Kalkulaator</a></li>
                         <li><a href="?leht=tekstifunktsioonid.php">Tekstfunktsioonid</a></li>
-                        <li><a href="?leht=JStoo.php">JStoo</a></li>
                         <li><a href="?leht=matemaatilised.php">Matemaatilised Funktsioonid</a></li>
-                        <li><a href="?leht=galerii.php">Pildi Galerii</a></li>
+
                     </ul>
                 </li>
             </ul>
