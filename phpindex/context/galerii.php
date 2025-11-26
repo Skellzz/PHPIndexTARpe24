@@ -4,7 +4,7 @@
             <option value="">Vali pilt</option>
             <?php
             // Kuna galerii.php on context/ kaustas
-            $kataloog = '../image';
+            $kataloog = 'image/';
 
             if(is_dir($kataloog)) {
                 $asukoht = opendir($kataloog);
@@ -31,7 +31,7 @@ if(!empty($_POST['pildid'])){
     // HTML jaoks ilma ../
     $pildi_aadress = 'image/'.$pilt;
     // PHP jaoks koos ../
-    $pildi_aadress_php = '../image/'.$pilt;
+    $pildi_aadress_php = 'image/'.$pilt;
 
     if(file_exists($pildi_aadress_php)) {
         $pildi_andmed = getimagesize($pildi_aadress_php);
