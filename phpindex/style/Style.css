@@ -1,60 +1,51 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    color: greenyellow;
-}
+
 body {
     padding: 0;
     margin: 0;
-
 }
 
-ul li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a{
     text-decoration: none;
 }
-ul li{
-    float: left;
-    background-color: greenyellow;
-}
-ul li a:hover {
 
-    background-color: greenyellow;
+h1{
+    text-align: center;
 }
+
 header {
-    background-color: greenyellow;
+    background-color: green;
     text-align: center;
     padding: 10px;
 }
+
 footer {
-    background-color: greenyellow;
+    background-color: green;
     text-align: center;
     padding: 8px;
 }
+
 div.flex-container {
     display: flex;
     flex-direction: row;
-
 }
+
 div.flex-container > div{
     margin: 10px;
     border: solid 1pt grey;
     border-radius: 10px;
     flex: 1;
     padding: 10px;
-
-
 }
+
 .container {
     display: flex;
     background-color: DodgerBlue;
-
 }
 
 .container div {
@@ -64,3 +55,89 @@ div.flex-container > div{
     font-size: 10px;
 }
 
+#main{
+    width: 100%;
+}
+
+#content{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu, .menu ul{
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    height: 47px;
+    width: 100%;
+    background: grey;
+    margin-top: 0;
+}
+
+.menu > ul > li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.menu li > a{
+    display: block;
+    color: #000;
+    padding: 16px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.menu li > a:hover{
+    background-color: green;
+}
+
+.dropdown{
+    display: block;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    background: green;
+    top: 47px;
+    left: 0;
+    min-width: 200px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.dropdown li{
+    float: none;
+    width: 100%;
+}
+
+.dropdown li a{
+    width: 100%;
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid green;
+}
+
+.dropdown li a:hover{
+    background-color: green;
+}
+
+.menu li:hover > ul.dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
