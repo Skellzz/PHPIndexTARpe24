@@ -1,4 +1,11 @@
 <?php
+function clearVarsExcept1($url, $varname){
+    $url=basename($url);
+    if(str_starts_with($url, "?")){
+        return "?$varname=".$_REQUEST[$varname];
+    }
+    return strtok($url, "?")."?$varname=".$_REQUEST[$varname];
+}
 echo "<h2>Tekstfunktsioonid</h2>";
 $tekst='Veebirakendused on arvutitarkvara programm';
 echo $tekst; //näitab muutaja sisu
@@ -57,7 +64,7 @@ echo "<li>linnal on ainult ".str_word_count($linn)." Ä,Ü,Õ,Ö tähte</li>";
 echo "<br>";
 echo "<li>linn on".substr_replace($linn, "*", 3, 4)." </li>";
 ?>
-<form action="tekstifunktsioonid.php" method="post">
+<form action="<?=clearVarsExcept1($_SERVER['REQUEST_URI'], "leht")?>" method="post">
     <label for="linn">Sisesta linnanimi</label>
     <input type="text" id="linn" name="linn">
     <input type="submit" value="Kontrolli">

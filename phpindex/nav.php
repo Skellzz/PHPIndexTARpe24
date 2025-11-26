@@ -12,6 +12,8 @@
                     <ul class="dropdown">
                         <li><a href="?leht=Ajafunktsioonid.php">Ajafunktsioonid</a></li>
                         <li><a href="?leht=Kalkulaator.php">Kalkulaator</a></li>
+                        <li><a href="?leht=tekstifunktsioonid.php">Tekstfunktsioonid</a></li>
+                        <li><a href="?leht=JStoo.php">JStoo</a></li>
                         <li><a href="?leht=matemaatilised.php">Matemaatilised Funktsioonid</a></li>
                         <li><a href="?leht=galerii.php">Pildi Galerii</a></li>
                     </ul>
