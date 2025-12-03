@@ -11,14 +11,14 @@
                 <li><a href="?leht=JStoo.php">JStoo</a></li>
                 <li><a href="?leht=Kalkulaator.php">Kalkulaator</a></li>
                 <li><a href="?leht=galerii.php">Pildi Galerii</a></li>
-                <li><a href="?leht=blankett.html">Mobiilimall</a></li>
-                <li><a href="?leht=varsketeade.html">Anekdoot</a></li>
+                <li><a href="./mobiilimall/blankett.php">Mobiilimall</a></li>
+                <li><a href="./hanektoot/varsketeade.php">Anekdoot</a></li>
+                <li><a href="./mobiilimall/mobillimalliKonspekt.php">Mobiilmalli Kospekt</a></li>
                 <li><a href="#">FUNKTSIOONID</a>
                     <ul class="dropdown">
                         <li><a href="?leht=Ajafunktsioonid.php">Ajafunktsioonid</a></li>
                         <li><a href="?leht=tekstifunktsioonid.php">Tekstfunktsioonid</a></li>
                         <li><a href="?leht=matemaatilised.php">Matemaatilised Funktsioonid</a></li>
-
 
                     </ul>
                 </li>

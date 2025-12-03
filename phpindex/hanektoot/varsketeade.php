@@ -1,38 +1,29 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC>
 <head>
-    <title>Värske Teade</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;
+maximum-scale=1.0;">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tunniplaan</title>
+    <link href="../hanektoot/kujundus.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="header">
+    <div class="nav">
+        <ul>
+            <li><a href="../hanektoot/anektoot1.php">Anektoot 1</a></li>
+            <li><a href="../hanektoot/anektoot2.php">Anektoot 2</a></li>
+            <li><a href="../hanektoot/anektoot3.php">Anektoot 3</a></li>
 
-<h1>Anekdoot</h1>
-<p>
-    <legend>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<h2>Anektoodid 1-3</h2>
+<p> Anektoodid <P>
+<ol>
+    <li>veebilehe disain on tehtud AI poolt</li>
 
-    </legend>
-    <legend>
-        <h3>Kaks kirpu</h3>
-        <p>Kaks kirpu tulevad saloonist välja ja näevad koera. Üks küsib, kas lähme jala või võtame takso?</p>
-    </legend>
-    <legend>
-        <h3>Hullud</h3>
-        <p>Hullud püüavad basseinis kala, aga üks ei püüa. Hullumaja direktor ütleb talle , et tule, ma kirjutan su välja, oled terve. Hull vastab: "Oodake, ma lähen võtan võrgud välja!</p>
-    </legend>
-    <legend>
-        <h3>Kurdid</h3>
-        <p>Kurttumm helistab kurdile: "Tead, pime ostis värviteleviisori!"</p>
-    </legend>
-    <legend>
-        <h3>Papagoi</h3>
-        <p>Mees ostab papagoi ja tahab talle rääkimist õpetada. Ta karjub puuri juures päevast päeva: "Hallo, hallo..." Papagoi keerab talle selja. Lõpuks, kui mees korraks vait jääb, ütleb talle papagoi: "Liin on kinni."</p>
-    </legend>
-    <legend>
-        <h3>Hommiku Töö</h3>
-        <p> Mees läheb hommikul tööle ning tal on ainult kolm juuksekarva peas. Ta kammib ühe taha ja teised kummalegi poole kõrvale. Teisel päeval on mehel kaks karva peas. Ühe on ta ette kamminud ja teise taha. Kolmandal päeval, kui ta tööle läheb on tal ainult üks karv peas ning ta ütleb: "Ah, ma lähen täna sassis peaga tööle."
-        </p>
-    </legend>
-
-
-
+</ol>
+</p>
 </body>
 </html>

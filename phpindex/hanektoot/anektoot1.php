@@ -1,10 +1,11 @@
 
-<?php require("hanektoot/varsketeade.php"); ?>
-    <h2>Esmaspäev</h2>
+<?php require("../hanektoot/varsketeade.php"); ?>
+    <h2>Anektoot1</h2>
     <p>
     <ol>
 
-        <li>    <h3>Kaks meest</h3>
+        <li>
+            <h3>Kaks meest</h3>
             <p>Kaks meest vaidlevad, kas siin on üks või kaks puud. Kolmas mees tuleb baarist välja ja ütleb: "Tulge eest, ma lähen metsa kusele!"</p>
         </li>
 

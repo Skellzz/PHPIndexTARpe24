@@ -76,7 +76,7 @@ div.flex-container > div{
     display: block;
     position: relative;
     height: 47px;
-    width: 100%;
+    width: 150%;
     background: grey;
     margin-top: 0;
 }
